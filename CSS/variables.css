@@ -1,4 +1,22 @@
 :root {
     --header-height: 60px;
-    --sidebar-width: 110px;
+    --sidebar-width: 130px;
+    --sidebar-display-grid: grid;
+    --sidebar-buttons-padding: 10px; 
+    --sidebar-gap: 20px;
+    --searchbar-height: 20px;
+    --sidebarnav-height: 25px;
+    --sidebarnav-margin: 10px;
+    --sidebar-arrow-button-width: 20px;
+    --sidebar-extended-transition-time: 1s;
+}
+
+.sidebarExtended {
+    --sidebar-width: 200px;
+}
+
+@media (max-width: 400px) {
+    :root {
+        --sidebar-display-grid: none; 
+    }    
 }
