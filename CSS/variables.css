@@ -1,6 +1,10 @@
 :root {
     --header-height: 60px;
     --sidebar-width: 130px;
+    --header-icon-height: 25px;
+    --headerButton-display: inline-flex; 
+    --header-icon-display: none;
+    --header-gap: 10px;
     --sidebar-display-grid: grid;
     --sidebar-buttons-padding: 10px; 
     --sidebar-gap: 20px;
@@ -18,5 +22,13 @@
 @media (max-width: 400px) {
     :root {
         --sidebar-display-grid: none; 
+    }    
+}
+
+@media (max-width: 600px) {
+    :root {
+        --headerButton-display: none; 
+        --header-icon-display: block;
+        --header-container-gap: 0;
     }    
 }

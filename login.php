@@ -3,9 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EneryDrinks.se</title>
-    <link rel="icon" type="image/png" href="Images/LogoSquare.png">
-    <link rel="stylesheet" href="CSS/style.css">
+    <title>Document</title>
 </head>
 <body id="body">
     <script src="script.js" defer></script>
@@ -18,43 +16,43 @@
         </div>
 
         <div class="headerButtonContainer">
-            <button class="headerButton">Home</button>
             <button class="iconButton">
                 <img src="Images/Home.png" alt="Home icon">
             </button>
+            <button class="headerButton">Home</button>
         </div>
 
         <div class="headerButtonContainer">
-            <button class="headerButton">Discounts</button>
             <button class="iconButton">
                 <img src="Images/Discount.png" alt="Discount icon">
             </button>
+            <button class="headerButton">Discounts</button>
         </div>
 
         <div class="headerButtonContainer">
-            <button class="headerButton">About Us</button>
             <button class="iconButton">
                 <img src="Images/About Us.png" alt="About us icon">
             </button>
+            <button class="headerButton">About Us</button>
         </div>
         
         <div class="headerButtonContainer">
-            <button class="headerButton">Login</button>
             <button class="iconButton">
                 <img src="Images/LogIn.png" alt="Login icon">
             </button>
+            <button class="headerButton">Login</button>
         </div>
 
         <div class="headerButtonContainer">
-            <button class="headerButton">Basket</button>
             <button class="iconButton">
                 <img src="Images/Basket.png" alt="Basket icon">
             </button>
+            <button class="headerButton">Basket</button>
         </div>
     </header>
     <div id="sidebar">
         <form id="searchbar">
-                <input type="search" name="q" id="searchInput" placeholder="Search...">
+            <input type="search" name="q" id="searchInput" placeholder="Search...">
             <button class="searchButton">
                 <img src="Images/Search.png" alt="Search icon">
             </button>
@@ -137,7 +135,7 @@
             <div class="sidebarNavContainer">
                 <button class="sidebarButton">Euro Shopper</button>
                 <button class="dropdownButton">
-                    <img src="/Images/Arrow.png" alt="Dropdown arrow icon">
+                    <img src="Images/Arrow.png" alt="Dropdown arrow icon">
                 </button>
             </div>
             <div class="sidebarDropdown">
