@@ -6,10 +6,10 @@
     </div>
 
     <div class="headerButtonContainer">
-        <a class="iconButton" href="/index.php">
+        <a class="iconButton" href="/">
             <img src="Images/Home.png" alt="Home icon">
         </a>
-        <a class="headerButton" href="/index.php">Home</a>
+        <a class="headerButton" href="/">Home</a>
     </div>
 
     <div class="headerButtonContainer">
