@@ -6,7 +6,7 @@
     </div>
 
     <div class="headerButtonContainer">
-        <a class="iconButton" href="?page=home">
+        <a class="iconButton" href="/index.php">
             <img src="Images/Home.png" alt="Home icon">
         </a>
         <a class="headerButton">Home</a>

@@ -23,7 +23,7 @@ session_start();
         <?php include "sidebar.php"; ?>
         <?php
             $page = $_GET['page'] ?? 'home';
-            if($page == "home") include "index.php";
+            // if($page == "home") include "index.php";
             if($page == "login") include "login.php";
         ?>
     </div>
