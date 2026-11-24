@@ -1,42 +1,42 @@
 <header id="header">
     <div id="logoHref">
-        <a href="#html">
+        <a href="?page=home">
             <img id="mainLogo" src="Images/Logo.png" alt="Logo image of the webshop &quot;EnergyDrinks.se&quot;">
         </a>
     </div>
 
     <div class="headerButtonContainer">
-        <button class="iconButton">
+        <a class="iconButton" href="?page=home">
             <img src="Images/Home.png" alt="Home icon">
-        </button>
-        <button class="headerButton">Home</button>
+        </a>
+        <a class="headerButton">Home</a>
     </div>
 
     <div class="headerButtonContainer">
-        <button class="iconButton">
+        <a class="iconButton">
             <img src="Images/Discount.png" alt="Discount icon">
-        </button>
-        <button class="headerButton">Discounts</button>
+        </a>
+        <a class="headerButton">Discounts</a>
     </div>
 
     <div class="headerButtonContainer">
-        <button class="iconButton">
+        <a class="iconButton">
             <img src="Images/About Us.png" alt="About us icon">
-        </button>
-        <button class="headerButton">About Us</button>
+        </a>
+        <a class="headerButton">About Us</a>
     </div>
     
     <div class="headerButtonContainer">
-        <button class="iconButton">
+        <a class="iconButton">
             <img src="Images/LogIn.png" alt="Login icon">
-        </button>
-        <button class="headerButton">Login</button>
+        </a>
+        <a class="headerButton" href="?page=login">Login</a>
     </div>
 
     <div class="headerButtonContainer">
-        <button class="iconButton">
+        <a class="iconButton">
             <img src="Images/Basket.png" alt="Basket icon">
-        </button>
-        <button class="headerButton">Basket</button>
+        </a>
+        <a class="headerButton">Basket</a>
     </div>
 </header>

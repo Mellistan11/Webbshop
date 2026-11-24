@@ -2,6 +2,8 @@
 
 session_start();
 
+
+
 ?>
 
 <!DOCTYPE html>
@@ -19,7 +21,11 @@ session_start();
     <?php include "header.php"; ?>
     <div id="container">
         <?php include "sidebar.php"; ?>
-        <!-- innehåll  -->
+        <?php
+            $page = $_GET['page'] ?? 'home';
+            if($page == "home") include "index.php";
+            if($page == "login") include "login.php";
+        ?>
     </div>
 </body>
 </html>

@@ -7,10 +7,10 @@
     </form>
     <div class="sidebarNav">
         <div class="sidebarNavContainer">
-            <button class="sidebarButton">Nocco</button>
-            <button class="dropdownButton">
+            <a class="sidebarButton" href="">Nocco</a>
+            <a class="dropdownButton">
                 <img src="Images/Arrow.png" alt="Dropdown arrow icon">
-            </button>
+            </a>
         </div>
         <div class="sidebarDropdown">
             <button class="categoryButton">BCAA</button>
