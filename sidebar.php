@@ -1,6 +1,6 @@
 <div id="sidebar">
-    <form id="searchbar">
-        <input type="search" name="q" id="searchInput" placeholder="Search...">
+    <form id="searchbar" method="get">
+        <input type="search" name="search" id="searchInput" placeholder="Search...">
         <button class="searchButton">
             <img src="Images/Search.png" alt="Search icon">
         </button>

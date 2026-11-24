@@ -25,6 +25,7 @@ session_start();
             $page = $_GET['page'] ?? 'home';
             // if($page == "home") include "index.php";
             if($page == "login") include "login.php";
+            if($page == "register") include "register.php";
         ?>
     </div>
 </body>
