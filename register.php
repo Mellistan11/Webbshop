@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 ?>
 
 <div id="registerContainer">
-    <form method="post">
+    <form method="POST">
         <input type="email" name="email" id="emailInput" placeholder="Email">
         <input type="text" name="username" id="usernameInput" placeholder="Username">
         <input type="password" name="password" id="PasswordInput" placeholder="Password">
