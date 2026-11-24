@@ -9,7 +9,7 @@
         <div class="sidebarNavContainer">
             <a class="sidebarButton" href="">Nocco</a>
             <a class="dropdownButton">
-                <img src="Images/Arrow.svg" alt="Dropdown arrow icon">
+                <img src="Images/arrow.svg" alt="Dropdown arrow icon">
             </a>
         </div>
         <div class="sidebarDropdown">
