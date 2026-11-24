@@ -1,7 +1,5 @@
 <?php
 
-echo "REGISTER RUNS";
-
 $conn = mysqli_connect("127.0.0.1", "melvin", "engerydrinks.se", "webbshop");
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -9,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = $_POST["username"];
     $password = $_POST["password"];
 
-    $query = "INSERT INTO users (email, username, password) VALUES ('$email'. '$username', '$password')";
+    $query = "INSERT INTO users (email, username, password) VALUES ('$email', '$username', '$password')";
     $conn->query($query);
 }
 
