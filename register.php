@@ -1,5 +1,7 @@
 <?php
 
+echo "REGISTER RUNS";
+
 $conn = mysqli_connect("127.0.0.1", "melvin", "engerydrinks.se", "webbshop");
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
