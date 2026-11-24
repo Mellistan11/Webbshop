@@ -9,7 +9,7 @@
         <a class="iconButton" href="/index.php">
             <img src="Images/Home.png" alt="Home icon">
         </a>
-        <a class="headerButton">Home</a>
+        <a class="headerButton" href="/index.php">Home</a>
     </div>
 
     <div class="headerButtonContainer">

@@ -6,8 +6,18 @@ body {
     margin: 0;
 }
 
-button:hover {
+a:hover {
     cursor: pointer;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+
+    & :visited {
+        color: inherit;
+        text-decoration: inherit;
+    }
 }
 
 #container {
@@ -324,5 +334,5 @@ button:hover {
 /* #endregion */
 
 /* #region login /*
-    
+
 /* #endregion */
